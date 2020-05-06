@@ -14,11 +14,9 @@ int main(){
     cout<< "ingrese c: ";
     cin>>c;
 
-    x = (-b + sqrt(pow(b, 2) - 4*a*c))/2*a;
+    x = (-b + sqrt(pow(b, 2) - 4*a*c))/(2*a);
 
     cout<<x;
-
-
-
+    
     return 0;
 }
